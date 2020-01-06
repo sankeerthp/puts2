@@ -3,8 +3,8 @@ import requests
 import json 
 from fractions import Fraction 
 
-number1 = [2,21,5,8]
-number2 = [7,11,3,4]
+number1 = [23,5,7,13]
+number2 = [4,51,33,24]
 
 sub_main = []
 sub_test = []
