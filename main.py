@@ -22,7 +22,7 @@ def index():
             return redirect(url_for('sub', A=A, B=B))
 
 @app.route('/sub')
-def add():
+def sub():
     dict = request.args.to_dict()
     A = eval(dict['A'])
     B = eval(dict['B'])
